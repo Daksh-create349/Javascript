@@ -16,3 +16,8 @@ let lname = 'Srivastava';
 let mname = `Kumar`;
 let greet = ` "Hello" ${fname}`; 
 console.log(greet);
+
+let age;
+let job = null;
+console.log(age);
+console.log(job);
