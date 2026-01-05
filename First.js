@@ -21,3 +21,7 @@ let age;
 let job = null;
 console.log(age);
 console.log(job);
+
+//Boolean
+let isloggedin = false;
+console.log(isloggedin);
