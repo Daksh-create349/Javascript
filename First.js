@@ -25,3 +25,16 @@ console.log(job);
 //Boolean
 let isloggedin = false;
 console.log(isloggedin);
+
+//Object
+let name = {
+    firstName: 'Daksh',
+    lastName: 'Srivastava',
+    age: 18,
+    subjects:{
+        subject1: 'C++',
+        subject2: 'JavaScript'
+    }
+};
+console.log(name);
+console.log(name.firstName);
