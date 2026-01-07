@@ -38,3 +38,11 @@ let name = {
 };
 console.log(name);
 console.log(name.firstName);
+
+//if else
+    let age_year = Number(prompt("Enter your age: "));
+if (age_year >= 18) {
+    console.log("You are eligible to vote");
+} else {
+    console.log("Not eligible to vote");
+}
