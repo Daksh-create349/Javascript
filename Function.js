@@ -25,4 +25,5 @@ let greet = function(name = "Guest") {
 console.log(greet("Daksh"));
 console.log(greet());
 
-
+const sumofnumbers = (para1, para2=1) => para1 + para2 + "2";
+console.log(sumofnumbers(1, 3));
