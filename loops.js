@@ -28,4 +28,4 @@ while (n < 6) {
 do {
     console.log(n);
     n++;
-} while (n < 6);
+} while (n < 6); 
