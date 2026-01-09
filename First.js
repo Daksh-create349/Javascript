@@ -46,3 +46,9 @@ if (age_year >= 18) {
 } else {
     console.log("Not eligible to vote");
 }
+
+alert("This is an alert from First.js");
+prompt("Enter your name:","Daksh");
+confirm("Do you want to proceed?");
+
+console.log(typeof NaN);
