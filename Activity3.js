@@ -31,4 +31,26 @@ for (let i = 0; i < itCompanies.length; i++) {
     console.log(itCompanies[i].toUpperCase());
 }
 
-//7 Print the array as a sentence
+let num = [1,2,3,4,5];
+let result = num.reduce((accumulator, currentValue) => accumulator + currentValue);
+console.log(typeof result); 
+
+let number = 0;
+for (let i = 0; i < num.length; i++) {
+    number += num[i];
+}
+console.log(typeof number);
+
+let arr = [10, 9, undefined];
+let filteredArr = [];
+
+for (let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] === typeof 10) {
+        filteredArr.push(arr[i]);
+    }
+}
+
+console.log(filteredArr); 
+
+console.log(arr.filter((i) => typeof i === 'number'));
+
