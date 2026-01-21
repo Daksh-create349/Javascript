@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+        <title>Document</title>
+</head>
+
+<body>
     <h1>HELLO DAKSH</h1>
 
-</head>
-<body>
+    <p id="para">Hello</p>
+    <p id="para2">Hello daksh</p>
+    <p class="Wow">Hello</p>
+
     <!-- external js -->
     <script src="loops.js"></script>
+
     <!-- inline js -->
-    <BUTTON onclick="alert('Free Swags and goodies')">Click kar !</BUTTON>
+    <button onclick="alert('Free Swags and goodies')">Click kar !</button>
+
+    <script>
+        console.log(document.querySelector('p'));      
+        console.log(document.getElementById('para'));  
+        console.log(document.getElementById('para2')); 
+        console.log(document.getElementsByClassName('Wow')); 
+    </script>
 </body>
 </html>
